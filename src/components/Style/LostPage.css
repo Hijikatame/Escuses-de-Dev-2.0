@@ -1,0 +1,14 @@
+.lost-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .lost-page h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .lost-page img {
+    width: 300px;
+    height: auto;
+  }

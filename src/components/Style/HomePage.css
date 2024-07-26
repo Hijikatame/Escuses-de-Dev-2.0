@@ -1,0 +1,49 @@
+.homepage {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .title {
+    font-size: 2em;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+  
+  .generate-button, .add-excuse-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: moveUp 1s forwards;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  .add-excuse-button {
+    margin-left: 10px;
+  }
+  
+  .excuse {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .loader {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes moveUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
